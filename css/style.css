@@ -1,0 +1,279 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f5f8fa;
+}
+
+.container {
+}
+
+.wrapper-head {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2em 0;
+  border-bottom: 2px solid #e0e6ea;
+  /* border: 2px solid red; */
+}
+
+.wrapper-head img {
+  width: 10em;
+  height: 100%;
+}
+
+.flex-boy {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1d2c3c;
+}
+
+.nav-account {
+  border: 1px solid #1d2c3c;
+  border-radius: 0.4em;
+  padding: 0.4em 1em;
+}
+
+.wrapper {
+  width: 56.25em;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 3em 0 0;
+}
+
+.wrapper-box-shadow{
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+
+}
+
+.wrapper-foot{
+  width: 56.25em;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em;
+}
+
+.wrapper-left {
+  background-color: white;
+  width: 65%;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.card-box {
+  border-bottom: 2px solid #f5f7fa;
+  padding: 2em 3em;
+}
+
+.card-box h2{
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.card-box--title {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  margin-bottom: 0.6em;
+}
+
+.title-support{
+  justify-content: center;
+}
+
+.stripe-img img {
+  margin: 1em auto;
+}
+
+.flex-form {
+  display: flex;
+  column-gap: 1em;
+}
+
+.input-box {
+  width: 100%;
+  margin-top: 0.625em;
+}
+
+.input-box input {
+  position: relative;
+  height: 3.125em;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 0.938em;
+  margin-top: 0.5em;
+  font-size: 1rem;
+  color: #707070;
+  background: #edeff2;
+  border-radius: 6px;
+}
+
+.input-box .mymail{
+  display: block;
+  width:80%;
+}
+
+.credit-card--wrap {
+  display: flex;
+  width: 100%;
+}
+
+.credit-card--wrap .card-expire {
+  width: 100%;
+  max-width: 100px;
+  text-align: right;
+  border-radius: none;
+}
+
+.credit-card--wrap .card-expire2 {
+  text-align: center;
+  width: 100%;
+  max-width: 3.75em;
+}
+
+.expired{
+  border-top-right-radius: unset !important;
+  border-bottom-right-radius: unset !important;
+}
+
+.card-expire{
+  border-radius: unset !important;
+}
+
+.card-expire2{
+  border-top-left-radius: unset !important;
+  border-bottom-left-radius: unset !important;
+}
+
+.buy-button {
+  color: white;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.396px;
+  padding: 1em 3em;
+  border-radius: 0.313;
+  outline: none;
+  background-color: #038e7d;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1.5em;
+  border-radius: 6px;
+}
+
+.wrapper-foot a{
+  text-decoration: none;
+  color: #31708F;
+
+}
+
+.wrapper-right {
+  background-color: #1179bf;
+  color: white;
+  width: 35%;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.wrapper-right--one h3{
+  font-weight:700;
+  letter-spacing: -0.01px;
+  font-size: 1.25rem;
+}
+
+.wrapper-right--one .freelance{
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: -0.015px;
+}
+
+.wrapper-right--one sup{
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.015px;
+  
+}
+
+.wrapper-right--one sub{
+font-size: 18px;
+letter-spacing: -0.015px;
+}
+
+.wrapper-right--one p{
+font-style: italic;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: -0.008px;
+/* margin-bottom: 2em; */
+}
+
+.renew-list {
+  margin-block: 2em;
+}
+
+.renew-list ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.renew-list ul li{
+  padding-block: .4em;
+}
+
+.renew-list ul li::before{
+  content: url(../assets/images/list-img.png);
+  vertical-align: middle;
+  line-height: normal;
+  margin-right: .6em;
+}
+
+.wrapper-right .agency{
+  border-bottom: 4px solid rgba(185, 245, 255, 0.5036);
+  line-height: 2em;
+  font-kerning: auto;
+}
+
+.wrapper-right--two{
+margin-top: 2.5em;
+padding-top: 2.5em;
+border-top: 2px solid rgba(255, 255, 255, 0.2005);
+line-height: 1.6em;
+}
+
+.wrapper-right--two p{letter-spacing: -0.009px;
+  font-style: italic;
+/* font-weight: 700; */
+}
+
+.port-img {
+  margin-top: 2em;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  font-weight: bold;
+}
+
+.port-img img{
+height: 40px;
+width: 40px;
+border-radius: 50%;
+}
