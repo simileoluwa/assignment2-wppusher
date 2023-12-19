@@ -277,3 +277,16 @@ height: 40px;
 width: 40px;
 border-radius: 50%;
 }
+
+@media screen and (min-width:320px) and (max-width:700px) {
+  .wrapper-head, .wrapper{
+    display: block;
+    align-items: baseline;
+  }
+  .wrapper-left, .wrapper-right, .wrapper-right--one{
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+  }
+
+}
